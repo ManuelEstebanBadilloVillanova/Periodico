@@ -1,3 +1,5 @@
+/* Estilo general */
+
 *
 {
     padding: 0;
@@ -7,11 +9,40 @@
 body
 {
     padding: 5px;
-    background-color: #0044ff;
+    background-color: #c8b990;
 }
 
 div
 {
+    display: inline-block;
     border: solid 1px;
-    background-color: #0044ff   ;
+    background-color: #c8b990;
+    height: 25vh;
+    width: 25vh;
+}
+
+/* estilo de secciones */
+
+.sec1
+{
+ /* border: none; */
+ position: relative;
+}
+
+.sec2
+{
+    border: solid;
+    position: relative;
+}
+
+.sec3
+{
+    /* border: none; */
+    position: relative;
+}
+
+.sec4
+{
+    border: solid;
+    position: relative;
 }
