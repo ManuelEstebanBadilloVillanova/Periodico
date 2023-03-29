@@ -8,8 +8,8 @@
 }
 body
 {
-    padding: 5px;
-    background-color: #c8b990;
+    background-color: cadetblue;
+
 }
 
 div
@@ -21,26 +21,56 @@ div
     width: 25vh;
 }
 
+.news-papper
+{
+    height: 100vh;
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+
 /* estilo de secciones */
 
+/* seccion 1 */
 .sec1
 {
  /* border: none; */
  position: relative;
+ width: 60vh;
+ 
 }
 
+
+.sec1_luto
+{
+    display: inline-block;
+}
+
+.sec1_tanfactory
+{
+    display: inline-block;
+}
+
+/* seccion 2 */
 .sec2
 {
     border: solid;
     position: relative;
 }
 
+
+/* seccion 3 */
 .sec3
 {
     /* border: none; */
     position: relative;
 }
 
+
+/* seccion 4 */
 .sec4
 {
     border: solid;
