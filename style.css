@@ -9,6 +9,7 @@
 body
 {
     background-color: cadetblue;
+    position: absolute;
 
 }
 
@@ -23,6 +24,7 @@ div
 
 .news-papper
 {
+    width: 120vh;
     height: 100vh;
     position: relative;
     top: 0;
@@ -30,49 +32,6 @@ div
     right: 0;
     bottom: 0;
     margin: auto;
+    padding: auto;
 }
 
-/* estilo de secciones */
-
-/* seccion 1 */
-.sec1
-{
- /* border: none; */
- position: relative;
- width: 60vh;
- 
-}
-
-
-.sec1_luto
-{
-    display: inline-block;
-}
-
-.sec1_tanfactory
-{
-    display: inline-block;
-}
-
-/* seccion 2 */
-.sec2
-{
-    border: solid;
-    position: relative;
-}
-
-
-/* seccion 3 */
-.sec3
-{
-    /* border: none; */
-    position: relative;
-}
-
-
-/* seccion 4 */
-.sec4
-{
-    border: solid;
-    position: relative;
-}
