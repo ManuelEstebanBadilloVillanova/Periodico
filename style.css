@@ -30,7 +30,6 @@ p
     display: inline-block;
     font-size: x-small;
     text-align: center;
-    
 }
 
 ul
@@ -73,11 +72,31 @@ li
 
 }
 
+
 .sec1_col1-img
 {
     width: 100%;
     height: 33.3%;
 }
+
+.sec1_col1 p
+{
+    font-size: 8.5px;
+    text-align: justify;
+    width: 88%;
+    margin-left: 9px;
+}
+
+.sec1_col1 p b
+{
+    position: relative;
+    text-align: center;
+    font-size: 10px;
+    font-weight: 800;
+    left: 0;
+    margin-bottom: 12px;
+}
+
 
 p b
 {
@@ -86,6 +105,36 @@ p b
     position: relative;
     top: 1.5vh;
     left: 1.5vh;
+}
+
+.sec1_pesp0
+{
+    position: relative;
+    top: 8px;
+}
+
+.sec1_pesp1 
+{
+    margin-left: 1vh;
+    font-weight: 800;
+    width: 100%;
+    display: inline-block;
+    font-size: 12px;
+    margin-top: 14px;
+    text-align: center;
+    position: relative;
+    left: 4vh;
+}
+
+.sec1_pesp2
+{
+    margin-left: 1vh;
+    font-weight: 600;
+    width: 100%;
+    display: inline-block;
+    font-size: 8px;
+    position: relative;
+    top: -4px;
 }
 
 
@@ -165,12 +214,45 @@ p b
 .sec2_par2-img
 {
     display: inline-block;
-    position: absolute;
-    top: 50%;
-    bottom: 20px;
-    left: 0;
+    position: relative;
+    top: 15vh;
+    left: -18.5vh;
     right: 0;
     margin: auto;
+}
+
+.sec2_par2 
+{
+    width: 40%;
+    display: inline-block;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: xx-small;
+    text-align: justify;
+    position: absolute;
+    top: 18vh;
+    right: 4vh;
+}
+
+.sec2_par3
+{
+    width: 85%;
+    display: inline-block;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 8.5px;
+    font-style: italic;
+    font-weight: 800;
+    text-align: center;
+    position: absolute;
+    top: 49vh;
+    right: 4vh;
+}
+
+.sec2_footer
+{
+    font-size: 7.5px;
+    position: absolute;
+    top: 54vh;
+    right: 4vh;
 }
 
 /* seccion 3 */
@@ -191,25 +273,25 @@ p b
     width: 50%;
     margin: 1%;
     margin-top: 0;
-    font-size: 8px;
+    font-size: 8.5px;
     text-align: justify;
 }
 
 .sec3_par1 b
 {
-    font-size: 8px;
+    font-size: 8.5px;
     margin-bottom: 2vh;
 }
 
 .sec3_ul
 {
-    font-size: 8px;
+    font-size: 8.5px;
     width: 64%;
 }
 
 .sec3_ul li
 {
-    font-size: 8px;
+    font-size: 8.5px;
     text-align: justify;
 }
 
@@ -223,7 +305,10 @@ p b
 
 .sec3_ul-li4
 {
-
+    width: 46%;
+    position: absolute;
+    right: 0;
+    top: 25vh;
 }
 
 
