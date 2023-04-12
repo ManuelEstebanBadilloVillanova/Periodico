@@ -52,7 +52,7 @@ li
 .sec1
 {
     border: none;
-    width: 47%;
+    width: 46.5%;
     height: 47%;
     display: inline-block;
     position: absolute;
@@ -116,6 +116,7 @@ p b
 .sec1_pesp1 
 {
     margin-left: 1vh;
+    margin-bottom: 10px;
     font-weight: 800;
     width: 100%;
     display: inline-block;
@@ -159,13 +160,14 @@ p b
 
 .sec2
 {
-    border: solid 1px;
-    width: 46.5%;
-    height: 47%;
+    border: solid 2px;
+    width: 46%;
+    height: 46.5%;
     display: inline-block;
     position: absolute;
     left: 20px;
     bottom: 20px;
+    border-style: double;
 }
 
 .sec2_title
@@ -260,8 +262,8 @@ p b
 .sec3
 {
     border: none;
-    width: 46%;
-    height: 72%;
+    width: 45.5%;
+    height: 70%;
     display: inline-block;
     position: absolute;
     right: 20px;
@@ -270,7 +272,8 @@ p b
 
 .sec3_par1
 {
-    width: 50%;
+    width: 48%;
+    max-height: 80%;
     margin: 1%;
     margin-top: 0;
     font-size: 8.5px;
@@ -281,13 +284,26 @@ p b
 {
     font-size: 8.5px;
     margin-bottom: 2vh;
+    width: 92%;
+    display: block;
 }
 
 .sec3_ul
 {
     font-size: 8.5px;
-    width: 64%;
+    width: 62%;
+    height: 2%;
 }
+
+.par-li
+{
+    width: 44%;
+    position: absolute;
+    right: 0;
+    top: 9px;
+    text-align: justify;
+}
+
 
 .sec3_ul li
 {
@@ -297,18 +313,18 @@ p b
 
 .sec3_ul-li3
 {
-    width: 46%;
+    width: 44%;
     position: absolute;
     right: 0;
-    top: 9px;
+    top: 19vh;
 }
 
 .sec3_ul-li4
 {
-    width: 46%;
+    width: 44%;
     position: absolute;
     right: 0;
-    top: 25vh;
+    top: 43vh;
 }
 
 
@@ -319,7 +335,7 @@ p b
 {
     border: none;
     width: 46.5%;
-    height: 22.5%;
+    height: 22%;
     display: inline-block;
     position: absolute;
     right: 19px;
